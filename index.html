@@ -1,0 +1,623 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>MAHSEEL</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="container">
+        <a href="#" class="brand">Mahseel</a>
+        <ul class="nav-menu">
+          <li>
+            <a href="#">Services <i class="bx bx-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="left-section">
+                  <span class="dropdown-close"
+                    ><i class="bx bx-chevron-left"></i> Back</span
+                  >
+                  <div class="right-section">
+                    <h3>Services features</h3>
+                    <ul class="dropdown-links">
+                      <li>
+                        <a href="#">
+                          <div>
+                            <img
+                              class="icon_Services"
+                              src="https://cdn-new.tridge.com/assets/DHWKQNAV.png"
+                              alt="Sourcing Hub"
+                            />
+                          </div>
+                          <div>
+                            <h5>Sourcing Hub</h5>
+                            <p>
+                              Grow your business by connecting with credible
+                              agri-food suppliers through Exhibition 365 and
+                              Sourcing Requests
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div>
+                            <img
+                              class="icon_Services"
+                              src="https://cdn-new.tridge.com/assets/DAQMC2YK.png"
+                              alt="Intelligence"
+                            />
+                          </div>
+                          <div>
+                            <h5>Intelligence & Data</h5>
+                            <p>
+                              Make smarter business decisions and gain a
+                              competitive edge with our expert insights into the
+                              global agri-food market.
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div>
+                            <img
+                              class="icon_Services"
+                              src="https://cdn-new.tridge.com/assets/5W2BPLKF.png"
+                              alt="Fulfillment"
+                            />
+                          </div>
+                          <div>
+                            <h5>Fulfillment Solution</h5>
+                            <p>
+                              Order with us to safely and reliably import
+                              products. We’ll take care of everything from
+                              production to shipment.
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">Resources <i class="bx bx-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="left-section">
+                  <span class="dropdown-close"
+                    ><i class="bx bx-chevron-left"></i> Back</span
+                  >
+                  <a href="#"><h1>Global Price Trends</h1></a>
+                  <a href="#"><h1>Webinars</h1></a>
+                  <a href="#"><h1>White Papers</h1></a>
+                  <a href="#"><h1>Data Coverage</h1></a>
+                  <a href="#"><h1>Advertise with Tridge</h1></a>
+                  <a href="#"><h1>Sourcing Requests Quota</h1></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">Company <i class="bx bx-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="left-section">
+                  <span class="dropdown-close"
+                    ><i class="bx bx-chevron-left"></i> Back</span
+                  >
+
+                  <a href="#"><h1>About Us</h1></a>
+                  <a href="#"
+                    ><h1>Careers <i class="bx bx-link-external"></i></h1
+                  ></a>
+                  <a href="#"
+                    ><h1>Blog <i class="bx bx-link-external"></i></h1
+                  ></a>
+                  <a href="#"
+                    ><h1>Contact Us <i class="bx bx-link-external"></i></h1
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="hide_desktop">
+            <i class="bx bx-world"></i>
+            <select class="custom_select">
+              <option value="0">English</option>
+              <option value="1">한국어</option>
+              <option value="2">العربيه</option>
+              <option value="3">Italiano</option>
+            </select>
+          </li>
+        </ul>
+        <div class="right_nav">
+          <li>
+            <i id="open-btn" class="bx bx-search"></i>
+          </li>
+          <a href="#!" class="btn-auth">Sign up</a>
+          <li class="hide_mobile">
+            <i class="bx bx-world"></i>
+            <select class="custom_select">
+              <option value="0">English</option>
+              <option value="1">한국어</option>
+              <option value="2">العربيه</option>
+              <option value="3">Italiano</option>
+            </select>
+          </li>
+        </div>
+
+        <!--Modal & Modal Background-->
+        <div id="modal-container">
+          <div id="modal">
+            <div class="box">
+              <div class="container-1">
+                <span class="icon">
+                  <i class="bx bx-search"></i>
+                </span>
+                <input
+                  type="search"
+                  class="st-default-search-input"
+                  id="search"
+                  placeholder="Search..."
+                />
+              </div>
+              <div id="close-btn"></div>
+            </div>
+          </div>
+        </div>
+        <i class="bx bx-menu toggle-navbar"></i>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- header -->
+    <header>
+      <span class="arrow_back"
+        ><i class="bx bx-arrow-back"></i> Back to Product Browser</span
+      >
+      <h1 class="h1_Header">Browse Products by Category</h1>
+    </header>
+    <!-- end header -->
+
+    <!-- section -->
+    <section>
+      <!-- search_section -->
+      <div class="container-1 search_section">
+        <i class='bx bx-list-ul listaction ' id="openNav"></i>
+
+        <span class="icon_search_section">
+          <i class="bx bx-search"></i>
+        </span>
+        <input
+          class="input_search_section"
+          type="search"
+          placeholder="Search..."
+        />
+      </div>
+
+      <!-- section components -->
+      <div class="section_components">
+
+        <!-- list  -->
+        <div class="container_list ">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Seafood <span class="numberOfItem">(183)</span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Vegetables <span class="numberOfItem"> (162)</span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Packaged Fruits & Vegetables <span class="numberOfItem">(142)</span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                  <span class="accordion-title">Fruits  <span class="numberOfItem">(224)</span></span></span>
+              </span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Grains, Cereal & Legumes  <span class="numberOfItem">(95)</span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Oil & Fats  <span class="numberOfItem">(89)</span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Herbs, Spices & Seasonings  <span class="numberOfItem">(78)</span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Others <span class="numberOfItem">(4) </span></span></span>
+              </button>
+              <div class="accordion-content">
+                <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+                <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+                <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+                <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- list End  -->
+
+        <!-- cards  -->
+        <div class="container_cards">
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/f1/fe/4b/f1fe4b262cfebbc0017cc47ff6d31f7f6403a3e0.jpg"                             />
+              <div class="card-info">
+                <h2 class="card-title">Wheat
+                 </h2>
+                <p class="card-intro">
+                  Triticum aestivum, Пшеница, 小麦, Blé, 소맥, Trigo, Wheat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/91/a4/15/91a41569ed9068351c5c5dbd28de9634d47e1904.jpg"              />
+              <div class="card-info">
+                <h2 class="card-title">Maize (Corn)
+                 </h2>
+                <p class="card-intro">
+                  Zea Mays, Маис (кукуруза), 玉米, Maïs, 옥수수, Maíz, Maize (Corn), Corn, Maize
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/59/dd/68/59dd6894b2e8b491fb5c54b4195d14ef8d96ddca.jpg"
+              />
+              <div class="card-info">
+                <h2 class="card-title">Fresh Whole Beef
+                  </h2>
+                <p class="card-intro">
+                  Bos taurus, Говядина, 牛肉, Bœuf, 소고기, Carne de vacuno, Beef
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+src="https://images.tridge.com/200x200/image/original/78/a7/a6/78a7a692e3ab37c78bb8a1df505ad54883e1e5b3.jpg"              />
+              <div class="card-info">
+                <h2 class="card-title">Frozen Pork Ham </h2>
+                <p class="card-intro">
+                  
+                  Sus scrofa domesticus, Свинина, 猪肉, Porc, 돼지고기, Cerdo, Pork
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/59/dd/68/59dd6894b2e8b491fb5c54b4195d14ef8d96ddca.jpg"
+              />
+              <div class="card-info">
+                <h2 class="card-title">Fresh Whole Beef
+                  </h2>
+                <p class="card-intro">
+                  Bos taurus, Говядина, 牛肉, Bœuf, 소고기, Carne de vacuno, Beef
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/29/ac/0e/29ac0ed66ba0667070c9515e763a551aecb2ef65.jpg"              />
+              <div class="card-info">
+                <h2 class="card-title">Salmon
+                  Salmonidae</h2>
+                <p class="card-intro">
+                  , Лосось, 三文鱼, Saumon, 연어, Salmón, Salmon, Лосось атлантический (=семга), 大西洋鲑, Salmón del Atlántico, Saumon de l'Atlantique
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/34/b4/5c/34b45c71fd408bcf6a9670816e5d70f13c9ebd2b.jpg"
+                />
+              <div class="card-info">
+                <h2 class="card-title">Lamb
+                </h2>
+                <p class="card-intro">
+                  Ягнятина, Agneau, 양명아주, Lamb
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-item">
+              <img
+                class="card-image"
+                src="https://images.tridge.com/200x200/image/original/59/dd/68/59dd6894b2e8b491fb5c54b4195d14ef8d96ddca.jpg"
+              />
+              <div class="card-info">
+                <h2 class="card-title">Fresh Whole Beef
+                  </h2>
+                <p class="card-intro">
+                  Bos taurus, Говядина, 牛肉, Bœuf, 소고기, Carne de vacuno, Beef
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- end cards  -->
+
+      </div>
+
+    </section>
+    <!-- section -->
+
+     <!-- Sidelist mobile-->
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+      <div class="container_list show">
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Seafood <span class="numberOfItem">(183)</span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Vegetables <span class="numberOfItem"> (162)</span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Packaged Fruits & Vegetables <span class="numberOfItem">(142)</span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Fruits  <span class="numberOfItem">(224)</span></span></span>
+            </span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Grains, Cereal & Legumes  <span class="numberOfItem">(95)</span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Oil & Fats  <span class="numberOfItem">(89)</span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Herbs, Spices & Seasonings  <span class="numberOfItem">(78)</span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Others <span class="numberOfItem">(4) </span></span></span>
+            </button>
+            <div class="accordion-content">
+              <span class="accordion-title">Crustacean  <span class="numberOfItem">(11)</span></span></span>
+              <span class="accordion-title">Shellfish  <span class="numberOfItem">(9)</span></span></span>
+              <span class="accordion-title">Echinoderms  <span class="numberOfItem">(4)</span></span></span>
+              <span class="accordion-title">Other Seafood  <span class="numberOfItem">(4)</span></span></span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="container_footer">
+            <div class="row">
+              <div class="footer-col">
+                <h4>SOURCING HUB</h4>
+                <ul>
+                  <li><a href="#">Introduction</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Exhibition 365 - Booths</a></li>
+                  <li><a href="#">Exhibition 365 - Events</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">shipping</a></li>
+                  <li><a href="#">returns</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>FULFILLMENT</h4>
+                <ul>
+                  <li><a href="#">Introduction</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Browse</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4> INTELLIGENCE & DATA</h4>
+                <ul>
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">News & Insights</a></li>
+                  <li><a href="#">Analysis & Reports</a></li>
+                  <li><a href="#">Price Data</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>RESOURCES</h4>
+                <ul>
+                  <li><a href="#">Global Price Trends</a></li>
+                  <li><a href="#">White Papers</a></li>
+                  <li><a href="#">Advertise with Tridge</a></li>
+                  <li><a href="#">Sourcing Requests Quota</a></li>
+                </ul>
+              </div>
+              <div class="legal">
+                <p>&copy; 2023 . All rights reserved.</p>
+                
+                <div class="legal__links">
+                    <div class="p_links" style="padding-right: 5px;"><a href="https://www.linkedin.com" target="_blank"><img src="https://cdn-new.tridge.com/assets/SLK4PFQX.svg" alt="linkedin"></a></div>
+                        <div class="p_links"><a href="https://www.youtube.com" target="_blank" class="sc-ketvJG eohzaR"><img  src="https://cdn-new.tridge.com/assets/EV2RLI5P.svg" alt="youtube"></a>
+                        </div><div class="p_links"><a href="https://www.facebook.com" target="_blank" class="sc-ketvJG eohzaR"><img  src="https://cdn-new.tridge.com/assets/SZFTN46V.svg" alt="facebook"></a>
+                        </div><div class="p_links"><a href="https://twitter.com" target="_blank" class="sc-ketvJG eohzaR"><img  src="https://cdn-new.tridge.com/assets/OGPCLGVT.svg" alt="twitter"></a>
+                        </div><div class="p_links"><a href="https://blog.naver.com" target="_blank" class="sc-ketvJG eohzaR"><img  src="https://cdn-new.tridge.com/assets/ALBJIRUT.svg" alt="naver"></a>
+                      </div>
+                    </div>   
+              </div>
+            </div>
+          </div>
+       </footer>
+          <!-- end footer -->
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
