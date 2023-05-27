@@ -835,4 +835,8 @@ ul {
   .input_search_section {
     width: 300px !important;
   }
+  .h1_Header {
+    font-weight: 600;
+    font-size: 21px;
+  }
 }
